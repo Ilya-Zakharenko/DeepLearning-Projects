@@ -1,28 +1,44 @@
-# <center> **TIME SERIES PROJECTS.**
+# <center> **Computer Vision Tasks**  
+Computer Vision Tasks
 
-
-This folder contains projects focused on **time series analysis and forecasting**, a domain of machine learning and statistics used to predict future values based on historical data. The projects here explore various techniques to model and forecast time-dependent data.
+This folder contains Computer Vision projects completed as part of the **Deep Learning** course.
 
 ---
 
+### 📁 Projects
 
-### **Projects**
+- **[Fashion-MNIST Classification](Fashion-MNIST/)**  
+  Image classification of 10 clothing categories using a custom Convolutional Neural Network.  
+  **Achieved accuracy**: 88.97%
 
-- **[sales_forecasting_favorita/](sales_forecasting_favorita/)**  
+- **[English Letters CAPTCHA Recognition](DL_CAPTCHA_NEW/)**  
+  Recognition of distorted and noisy English alphabet letters (A–Z) using CNN with data augmentation and regularization.  
+  **Achieved accuracy**: 90.03%
 
-  A project to forecast sales volumes for thousands of products across multiple Favorita stores in Ecuador. The dataset includes historical sales data, store information, and external factors. 
+---
 
-  - **Dataset**: Historical sales data from Favorita stores in Ecuador.  
+### 🛠 Technologies & Approaches
 
-  - **Methods**:  
-    - ARIMA/SARIMA for classical time series modeling.  
-    - Prophet (FBProphet) for automated forecasting.  
-    - XGBoost and CatBoost for gradient boosting-based predictions.  
+- **Framework**: TensorFlow / Keras
+- **Core Architecture**: Convolutional Neural Networks (CNN)
+- **Techniques**:
+  - Data Augmentation (`ImageDataGenerator`)
+  - Batch Normalization
+  - Dropout Regularization
+  - Custom CNN architectures
 
-  - **Features**: Calculation of influencing factors (e.g., seasonality, holidays).  
+**Evaluation**
+- Accuracy
+- Training history analysis
+- Visualization of predictions
 
-  - **Results**: Detailed performance metrics (e.g., MAE, RMSE) are available in the project folder's `README.md` and `results/` directory.  
+---
 
-  - **How to Run**: See instructions in the project folder.
+### 🎯 Purpose of this Folder
+
+- Practice building CNNs from scratch
+- Work with real computer vision challenges (noise, distortion, small datasets)
+- Compare different model architectures and training strategies
+- Gain hands-on experience in image classification
 
 ---
